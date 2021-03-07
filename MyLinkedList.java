@@ -98,7 +98,7 @@ public class MyLinkedList {
         list.deleteNode();
         System.out.println("The new attendance is: ");
 
-        //Shows the new attendance without the student. There are 5 students instead of 6 students.
+        //Shows the new attendance without the student. There are 6 students instead of 7 students.
         list.showList();
         System.out.println("There are " + list.numberOfStudents() + " students in the class.");
         System.out.println("\n"); //Uses the new line character and prints a blank space between students and "Let's Begin Class!"
